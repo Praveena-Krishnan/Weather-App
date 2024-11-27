@@ -64,7 +64,7 @@ const Weather = () => {
             <img src={search_icon} alt="" onClick={()=>search(inputRef.current.value)}/>
         </div>
         {loading ? (
-            <div className='"spinner'>
+            <div className='spinner'>
                 <img src={loading_icon} alt=""/>
                 </div>
         ):(
